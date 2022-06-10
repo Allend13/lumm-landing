@@ -783,3 +783,79 @@ body {
   width: 100%;
   height: auto;
 }
+
+.roadmap {
+  margin-bottom: 293px;
+}
+
+.roadmap__title {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 100%;
+  margin-bottom: 62px;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.roadmap__list {
+  position: relative;
+  right: -114px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.roadmap__item {
+  margin-right: 12px;
+}
+.roadmap__item:last-child {
+  margin-right: 0;
+}
+
+.roadmap__card {
+  padding: 20px;
+  width: 315.41px;
+  background: #232323;
+  border-radius: 13.3934px;
+}
+
+.roadmap__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 46px;
+}
+
+.roadmap__date {
+  font-size: 14px;
+  line-height: 110%;
+  color: #ffffff;
+  opacity: 0.15;
+}
+
+.roadmap__circle {
+  display: block;
+  width: 10.05px;
+  height: 10.05px;
+  border-radius: 50%;
+}
+.roadmap__circle--blue {
+  background: #0f59fa;
+}
+.roadmap__circle--yellow {
+  background: #e6fc35;
+}
+.roadmap__circle--orange {
+  background: #fe9426;
+}
+
+.roadmap__name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  color: #ffffff;
+}
