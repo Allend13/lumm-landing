@@ -712,13 +712,18 @@ body {
 }
 
 .usage {
+  margin-bottom: 167px;
+}
+
+.usage__wrapper {
   position: relative;
   z-index: 1;
+  margin-bottom: 96px;
 }
 
 .usage__list {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   max-width: 560px;
   width: 100%;
   list-style: none;
@@ -767,7 +772,7 @@ body {
   position: absolute;
   right: 0;
   top: 50%;
-  z-index: 1;
+  z-index: 2;
   width: 580px;
   height: 835px;
   transform: translateY(-50%);
@@ -775,10 +780,6 @@ body {
 }
 
 .usage__phones {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
   width: 100%;
   height: auto;
 }
