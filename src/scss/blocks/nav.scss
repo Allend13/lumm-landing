@@ -1,0 +1,32 @@
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 42px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+
+  text-decoration: none;
+  transition: all 0.2s linear;
+
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+
+  &:hover {
+    border-color: #fff;
+  }
+}

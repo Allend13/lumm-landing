@@ -1,0 +1,13 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 61px;
+
+  width: 100%;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

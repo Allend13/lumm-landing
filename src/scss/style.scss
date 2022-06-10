@@ -1,0 +1,29 @@
+@import "normalize.scss";
+@import "vars";
+@import "fonts";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/logo";
+@import "blocks/intro";
+@import "blocks/info";
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 137.02%;
+
+  position: relative;
+
+  color: rgba($color: #fff, $alpha: 0.5);
+  background-color: $black;
+}
+
+.container {
+  max-width: 1192px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
