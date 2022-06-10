@@ -1,3 +1,16 @@
+.nav {
+  &--footer {
+    .nav__item {
+      margin-right: 28px;
+    }
+
+    .nav__link {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
 .nav__list {
   display: flex;
   align-items: center;

@@ -4,6 +4,20 @@
   justify-content: flex-start;
 
   text-decoration: none;
+
+  &--footer {
+    .logo__brand {
+      width: 24px;
+      height: 22.02px;
+
+      margin-right: 8px;
+    }
+
+    .logo__text {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
 }
 
 .logo__brand {
