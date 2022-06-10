@@ -122,3 +122,22 @@
     width: 100%;
   }
 }
+
+@media (max-width: $mobile) {
+  .roadmap {
+    margin-bottom: 170px;
+  }
+
+  .roadmap__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .roadmap__item {
+    width: 100%;
+  }
+
+  .roadmap__top {
+    margin-bottom: 23px;
+  }
+}

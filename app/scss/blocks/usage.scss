@@ -107,3 +107,20 @@
     display: none;
   }
 }
+
+@media (max-width: $mobile) {
+  .usage__card {
+    padding: 15px;
+  }
+
+  .usage__title {
+    font-size: 16px;
+    line-height: 1.2;
+
+    margin-bottom: 10px;
+  }
+
+  .usage__phones {
+    width: 767px;
+  }
+}

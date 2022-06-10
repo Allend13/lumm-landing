@@ -36,3 +36,22 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
+@media (max-width: $mobile) {
+  .logo {
+    &--footer {
+      margin-bottom: 20px;
+    }
+  }
+
+  .logo__brand {
+    width: 23px;
+    height: auto;
+    margin-right: 11px;
+  }
+
+  .logo__text {
+    font-size: 23px;
+    line-height: 1.2;
+  }
+}

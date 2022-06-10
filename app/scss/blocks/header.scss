@@ -12,3 +12,11 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media (max-width: $mobile) {
+  .header {
+    top: 30px;
+
+    height: 28px;
+  }
+}

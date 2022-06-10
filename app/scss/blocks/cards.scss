@@ -92,3 +92,18 @@
     line-height: 1.3;
   }
 }
+
+@media (max-width: $mobile) {
+  .cards__card {
+    padding: 16px 20px;
+  }
+
+  .cards__state {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .cards__title {
+    font-size: 24px;
+  }
+}

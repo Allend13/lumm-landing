@@ -160,7 +160,7 @@
 
 @media (max-width: $tablet) {
   .features {
-    margin-bottom: 150px;
+    margin-bottom: 180px;
   }
 
   .features__title {
@@ -170,30 +170,29 @@
   }
 
   .features__item {
-    height: 500px;
-  }
-
-  .features__phone {
-    height: auto;
+    height: 450px;
   }
 
   .features__card {
     &--1 {
       .features__phone {
         width: 149.8px;
+        height: auto;
         margin-bottom: 16px;
       }
     }
     &--2 {
       .features__phone {
         width: 203px;
+        height: auto;
       }
     }
     &--3 {
       .features__phone {
-        top: 140px;
+        top: 120px;
 
         width: 326.9px;
+        height: auto;
       }
     }
     &--4 {
@@ -216,5 +215,37 @@
 
   .features__supname {
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .features {
+    margin-bottom: 130px;
+  }
+
+  .features__title {
+    font-size: 28px;
+  }
+
+  .features__item {
+    width: 100%;
+  }
+
+  .features__card {
+    &--3 {
+      .features__phone {
+        top: 80px;
+
+        width: 326.9px;
+        height: auto;
+      }
+    }
+    &--4 {
+      padding-bottom: 50px;
+
+      .features__name {
+        font-size: 26px;
+      }
+    }
   }
 }

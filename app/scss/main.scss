@@ -33,6 +33,13 @@ body {
   margin-right: auto;
 }
 
+@media (max-width: $mobile) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/logo";
@@ -44,3 +51,4 @@ body {
 @import "blocks/roadmap";
 @import "blocks/subscribe";
 @import "blocks/footer";
+@import "blocks/burger";

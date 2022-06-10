@@ -164,3 +164,44 @@
     margin-bottom: 25px;
   }
 }
+
+@media (max-width: $mobile) {
+  .subscribe {
+    margin-bottom: 35px;
+  }
+
+  .subscribe__confity {
+    top: -120px;
+
+    width: 328.5px;
+    height: 193px;
+  }
+
+  .subscribe__inner {
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .subscribe__wrapper {
+    max-width: 100%;
+  }
+
+  .subscribe__title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .subscribe__form {
+    flex-wrap: wrap;
+  }
+
+  .subscribe__input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .subscribe__submit {
+    width: 100%;
+  }
+}
