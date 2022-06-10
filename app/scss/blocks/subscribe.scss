@@ -1,0 +1,133 @@
+.subscribe {
+  position: relative;
+
+  margin-bottom: 50px;
+}
+
+.subscribe__confity {
+  position: absolute;
+  left: 50%;
+  top: -217px;
+  z-index: 2;
+
+  height: 386.07px;
+  width: 657px;
+
+  transform: translateX(-50%);
+
+  background: url("../../images/dist/confity.svg") no-repeat center;
+}
+
+.subscribe__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 418px;
+
+  text-align: center;
+
+  background: #e6fc35;
+  border-radius: 20px;
+}
+
+.subscribe__title {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 100%;
+
+  margin-bottom: 20px;
+
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+
+  color: #010101;
+}
+
+.subscribe__description {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+
+  margin-bottom: 45px;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.subscribe__form {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+
+  margin-bottom: 13px;
+}
+
+.subscribe__input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+
+  padding: 15px 25px;
+  height: 49px;
+  width: 343px;
+  margin-right: 12px;
+
+  outline: none;
+
+  border: none;
+  background: #ffffff;
+  border-radius: 50px;
+  color: #000000;
+
+  &::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+
+    color: rgba($color: #000000, $alpha: 0.2);
+  }
+}
+
+.subscribe__submit {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+
+  width: 101px;
+  height: 49px;
+
+  transition: all 0.2s linear;
+  cursor: pointer;
+
+  background: #000000;
+  border-radius: 50px;
+  border: none;
+  color: #ffffff;
+
+  &:hover {
+    background: lighten($color: #000000, $amount: 25);
+  }
+}
+
+.subscribe__subtext {
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+  opacity: 0.23;
+}
