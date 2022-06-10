@@ -1,0 +1,72 @@
+.info {
+  position: relative;
+
+  margin-bottom: 99px;
+}
+
+.info__inner {
+  position: relative;
+  z-index: 2;
+}
+
+.info__title {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 65px;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+
+.info__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.info__col {
+  max-width: 549px;
+  width: 100%;
+}
+
+.info__text {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+
+  margin-bottom: 15px;
+
+  color: #ffffff;
+  opacity: 0.4;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.info__card {
+  display: block;
+
+  width: 272px;
+  height: 204px;
+  margin-left: 121px;
+
+  background: url("../../images/card.svg") no-repeat center;
+}
+
+.info__poster {
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
+
+  display: block;
+
+  width: 128px;
+  height: 265px;
+
+  background: url("../../images/poster.png") no-repeat center;
+}
