@@ -57,6 +57,7 @@
 
   &--yellow {
     background: #e6fc35;
+    color: rgba($color: #131313, $alpha: 0.5);
   }
 
   &--orange {
@@ -77,6 +78,11 @@
   transform: translateY(-50%);
 
   background: url("../../images/dist/usage.png") no-repeat center;
+  background-size: contain;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("../../images/dist/usage2x.png");
+  }
 }
 
 .usage__phones {

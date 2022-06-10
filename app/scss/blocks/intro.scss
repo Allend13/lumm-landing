@@ -5,6 +5,11 @@
   margin-bottom: 64px;
 
   background: url("../../images/dist/intro.png") no-repeat center;
+  background-size: contain;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("../../images/dist/intro2x.png");
+  }
 }
 
 .intro_photo {
@@ -21,7 +26,12 @@
     height: 203px;
 
     background: url("../../images/dist/intro_photo_1.png") no-repeat center;
+    background-size: contain;
     filter: drop-shadow(0px 0px 32.6482px rgba(221, 215, 66, 0.5));
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("../../images/dist/intro_photo_12x.png");
+    }
   }
 
   &--2 {
@@ -32,6 +42,11 @@
     height: 208px;
 
     background: url("../../images/dist/intro_photo_2.png") no-repeat center;
+    background-size: contain;
     filter: drop-shadow(0px 0px 32.6482px #fe8830);
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("../../images/dist/intro_photo_22x.png");
+    }
   }
 }
