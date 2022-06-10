@@ -109,6 +109,8 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 
+    padding-left: 20px;
+    padding-right: 20px;
     margin: -6px;
   }
 
@@ -131,6 +133,17 @@
   .roadmap__title {
     font-size: 28px;
     line-height: 1.2;
+  }
+
+  .roadmap__title {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 31px;
+  }
+
+  .roadmap__list {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .roadmap__item {
