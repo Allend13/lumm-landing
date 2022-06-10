@@ -157,3 +157,64 @@
   letter-spacing: -0.02em;
   text-transform: lowercase;
 }
+
+@media (max-width: $tablet) {
+  .features {
+    margin-bottom: 150px;
+  }
+
+  .features__title {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 35px;
+  }
+
+  .features__item {
+    height: 500px;
+  }
+
+  .features__phone {
+    height: auto;
+  }
+
+  .features__card {
+    &--1 {
+      .features__phone {
+        width: 149.8px;
+        margin-bottom: 16px;
+      }
+    }
+    &--2 {
+      .features__phone {
+        width: 203px;
+      }
+    }
+    &--3 {
+      .features__phone {
+        top: 140px;
+
+        width: 326.9px;
+      }
+    }
+    &--4 {
+      padding-left: 35px;
+      padding-top: 50px;
+
+      .features__name {
+        font-size: 36px;
+        line-height: 1.2;
+
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .features__subname,
+  .features__supname {
+    font-size: 14px;
+  }
+
+  .features__supname {
+    margin-bottom: 10px;
+  }
+}

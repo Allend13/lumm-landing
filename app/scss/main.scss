@@ -1,6 +1,9 @@
 @import "normalize.scss";
 @import "fonts";
 
+$tablet: 1199px;
+$mobile: 767px;
+
 * {
   margin: 0;
   padding: 0;

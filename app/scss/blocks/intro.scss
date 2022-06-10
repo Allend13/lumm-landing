@@ -50,3 +50,26 @@
     }
   }
 }
+
+@media (max-width: $tablet) {
+  .intro {
+    height: 700px;
+    margin-bottom: 32px;
+
+    background-position: top;
+  }
+
+  .intro_photo {
+    &--1 {
+      bottom: 75px;
+
+      width: 116.2px;
+      height: 142.1px;
+    }
+
+    &--2 {
+      width: 109.9px;
+      height: 145.6px;
+    }
+  }
+}
