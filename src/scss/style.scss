@@ -1,11 +1,11 @@
 @import "normalize.scss";
-@import "vars";
 @import "fonts";
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/logo";
 @import "blocks/intro";
 @import "blocks/info";
+@import "blocks/cards";
 
 body {
   font-family: "Inter";
@@ -17,7 +17,7 @@ body {
   position: relative;
 
   color: rgba($color: #fff, $alpha: 0.5);
-  background-color: $black;
+  background-color: #131313;
 }
 
 .container {
