@@ -1,0 +1,159 @@
+.features {
+  margin-bottom: 284px;
+}
+
+.features__title {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 100%;
+
+  margin-top: 0;
+  margin-bottom: 70px;
+
+  letter-spacing: -0.05em;
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+
+.features__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.features__item {
+  height: 616px;
+  width: 50%;
+
+  &:nth-child(2),
+  &:nth-child(3) {
+    background: #fbfbfd;
+  }
+}
+
+.features__card {
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+  &--1 {
+    .features__phone {
+      width: 213.92px;
+      height: 432.85px;
+      margin-bottom: 34px;
+    }
+
+    .features__name {
+      font-family: "Lack";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+
+      margin-bottom: 17px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 244px;
+
+      text-align: center;
+      letter-spacing: -0.02em;
+      text-transform: lowercase;
+
+      color: #ffffff;
+    }
+
+    .features__description {
+      max-width: 244px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &--2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    height: 100%;
+  }
+
+  &--3 {
+    .features__phone {
+      position: relative;
+      top: 98px;
+    }
+  }
+
+  &--4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 70px;
+
+    text-align: left;
+
+    .features__name {
+      font-family: "Lack";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 54px;
+      line-height: 100%;
+
+      margin-bottom: 17px;
+
+      letter-spacing: -0.02em;
+      text-transform: lowercase;
+
+      color: #ffffff;
+    }
+
+    .features__description {
+      max-width: 284.49px;
+      width: 100%;
+    }
+  }
+}
+
+.features__phone {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features__supname {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+
+  margin-bottom: 16px;
+
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}
+
+.features__subname {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}

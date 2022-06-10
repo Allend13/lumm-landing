@@ -1,11 +1,11 @@
 @import "normalize.scss";
 @import "fonts";
-@import "blocks/header";
-@import "blocks/nav";
-@import "blocks/logo";
-@import "blocks/intro";
-@import "blocks/info";
-@import "blocks/cards";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Inter";
@@ -27,3 +27,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/logo";
+@import "blocks/intro";
+@import "blocks/info";
+@import "blocks/cards";
+@import "blocks/features";

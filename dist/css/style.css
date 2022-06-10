@@ -365,6 +365,31 @@ template {
   font-weight: 400;
   font-style: normal;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 137.02%;
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #131313;
+}
+
+.container {
+  max-width: 1202px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   position: absolute;
   left: 0;
@@ -456,6 +481,8 @@ template {
   line-height: 65px;
   letter-spacing: -0.01em;
   text-transform: lowercase;
+  margin-top: 0;
+  margin-bottom: 50px;
   color: #ffffff;
 }
 
@@ -474,6 +501,7 @@ template {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.01em;
+  margin-top: 0;
   margin-bottom: 15px;
   color: #ffffff;
   opacity: 0.4;
@@ -556,21 +584,129 @@ template {
   color: #ffffff;
 }
 
-body {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 137.02%;
-  position: relative;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #131313;
+.features {
+  margin-bottom: 284px;
 }
 
-.container {
-  max-width: 1202px;
-  padding-left: 20px;
-  padding-right: 20px;
+.features__title {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 70px;
+  letter-spacing: -0.05em;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.features__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.features__item {
+  height: 616px;
+  width: 50%;
+}
+.features__item:nth-child(2), .features__item:nth-child(3) {
+  background: #fbfbfd;
+}
+
+.features__card {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+.features__card--1 .features__phone {
+  width: 213.92px;
+  height: 432.85px;
+  margin-bottom: 34px;
+}
+.features__card--1 .features__name {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 244px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+.features__card--1 .features__description {
+  max-width: 244px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features__card--2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+}
+.features__card--3 .features__phone {
+  position: relative;
+  top: 98px;
+}
+.features__card--4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 70px;
+  text-align: left;
+}
+.features__card--4 .features__name {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 100%;
+  margin-bottom: 17px;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+.features__card--4 .features__description {
+  max-width: 284.49px;
+  width: 100%;
+}
+
+.features__phone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features__supname {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}
+
+.features__subname {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
 }
