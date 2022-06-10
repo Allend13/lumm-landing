@@ -16,6 +16,8 @@ body {
 
   position: relative;
 
+  overflow-x: hidden;
+
   color: rgba($color: #fff, $alpha: 0.5);
   background-color: #131313;
 }
@@ -37,3 +39,4 @@ body {
 @import "blocks/features";
 @import "blocks/usage";
 @import "blocks/roadmap";
+@import "blocks/subscribe";
