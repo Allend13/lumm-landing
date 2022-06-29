@@ -1,0 +1,170 @@
+.token {
+  margin-bottom: 23px;
+}
+
+.token__title {
+  font-family: "Lack";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 100%;
+
+  margin-bottom: 60px;
+
+  letter-spacing: -0.05em;
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+
+.token__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin: -12px;
+}
+
+.token__col {
+  margin: 12px;
+  width: calc(50% - 24px);
+}
+
+.token__intro {
+  padding: 32px 40px;
+  margin-bottom: 30px;
+
+  border: 0.799449px solid #dfdfdf;
+  border-radius: 15.989px;
+
+  &--yellow {
+    border-color: #e6fc35;
+  }
+
+  &--orange {
+    border-color: #fe9426;
+  }
+}
+
+.token__logo {
+  display: block;
+
+  width: 48.77px;
+  height: 41.8px;
+
+  margin-bottom: 16px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  &--lumi {
+    background-image: url("../../images/dist/lumm-token.svg");
+  }
+
+  &--fan {
+    background-image: url("../../images/dist/fan-token.svg");
+  }
+}
+
+.token__name {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+
+  margin-bottom: 16px;
+
+  color: #ffffff;
+}
+
+.token__description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.02em;
+
+  margin-bottom: 16px;
+}
+
+.token__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.02em;
+}
+
+.token__list {
+  list-style: none;
+}
+
+.token__item {
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+
+  background: #232323;
+  border-radius: 15.989px;
+
+  margin-bottom: 11px;
+  padding: 16px 40px;
+  min-height: 98px;
+
+  color: #ffffff;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: $tablet) {
+  .token__row {
+    flex-wrap: wrap;
+  }
+
+  .token__col {
+    width: 100%;
+
+    margin-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 12px;
+    }
+  }
+
+  .token__title {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .token__title {
+    font-size: 28px;
+  }
+
+  .token__intro {
+    padding: 25px;
+  }
+
+  .token__name {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .token__description,
+  .token__text {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .token__item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

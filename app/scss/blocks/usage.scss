@@ -1,26 +1,34 @@
 .usage {
-  margin-bottom: 167px;
+  margin-bottom: 171px;
 }
 
 .usage__wrapper {
-  position: relative;
-  z-index: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
 
   margin-bottom: 96px;
+}
+
+.usage__inner {
+  width: calc(50% - 14px);
+  margin-left: 14px;
 }
 
 .usage__list {
   position: relative;
   z-index: 3;
 
-  max-width: 560px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 
   list-style: none;
 }
 
 .usage__item {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 
   &:last-child {
     margin-bottom: 0;
@@ -28,18 +36,19 @@
 }
 
 .usage__card {
-  padding: 25px 30px;
+  padding: 46px;
+  padding-left: 53px;
 
   background: #1f1f1f;
-  border-radius: 14.8558px;
+  border-radius: 14.8558px 0 0 14.8558px;
 }
 
 .usage__title {
   font-family: "Lack";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
+  font-size: 32px;
+  line-height: 120%;
 
   margin-bottom: 17px;
 
@@ -50,32 +59,39 @@
 }
 
 .usage__accent {
-  padding: 2px 0 2px 3.7px;
   &--blue {
     background: #0f59fa;
   }
 
   &--yellow {
     background: #e6fc35;
-    color: rgba($color: #131313, $alpha: 0.5);
+    color: #232323;
   }
 
   &--orange {
-    color: #131313;
+    color: #ffffff;
     background: #fe9426;
   }
 }
 
+.usage__col {
+  position: relative;
+
+  min-height: 647.25px;
+  width: calc(50% - 14px);
+  margin-right: 14px;
+
+  background: #232323;
+  border-radius: 0 23.2822px 23.2822px 0;
+}
+
 .usage__bg {
   position: absolute;
-  right: 0;
-  top: 50%;
-  z-index: 2;
+  left: 0;
+  top: 0;
 
-  width: 580px;
-  height: 835px;
-
-  transform: translateY(-50%);
+  width: 561px;
+  height: 771px;
 
   background: url("../../images/dist/usage.png") no-repeat center;
   background-size: contain;
@@ -85,9 +101,9 @@
   }
 }
 
-.usage__phones {
-  width: 100%;
-  height: auto;
+.usage__description {
+  font-size: 15.5215px;
+  line-height: 19px;
 }
 
 @media (max-width: $tablet) {
@@ -99,11 +115,15 @@
     margin-bottom: 50px;
   }
 
+  .usage__inner {
+    width: 100%;
+  }
+
   .usage__list {
     max-width: 100%;
   }
 
-  .usage__bg {
+  .usage__col {
     display: none;
   }
 }
@@ -118,9 +138,5 @@
     line-height: 1.2;
 
     margin-bottom: 10px;
-  }
-
-  .usage__phones {
-    width: 767px;
   }
 }

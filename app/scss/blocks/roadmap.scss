@@ -1,5 +1,5 @@
 .roadmap {
-  margin-bottom: 293px;
+  margin-bottom: 301px;
 }
 
 .roadmap__title {
@@ -22,7 +22,7 @@
   right: -114px;
 
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: flex-end;
 
   list-style: none;
@@ -34,14 +34,29 @@
   &:last-child {
     margin-right: 0;
   }
+
+  &--off {
+    .roadmap__circle {
+      background-color: rgba($color: #dfdfdf, $alpha: 0.2);
+    }
+
+    .roadmap__name {
+      color: rgba($color: #ffffff, $alpha: 0.5);
+    }
+  }
 }
 
 .roadmap__card {
-  padding: 20px;
-  width: 315.41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 18px;
+  width: 315.02px;
+  height: 100%;
 
   background: #232323;
-  border-radius: 13.3934px;
+  border-radius: 11.9524px;
 }
 
 .roadmap__top {
@@ -53,7 +68,7 @@
 }
 
 .roadmap__date {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 110%;
 
   color: #ffffff;
@@ -64,10 +79,11 @@
 .roadmap__circle {
   display: block;
 
-  width: 10.05px;
-  height: 10.05px;
+  width: 8.96px;
+  height: 8.96px;
 
   border-radius: 50%;
+  background: rgba($color: #dfdfdf, $alpha: 0.2);
 
   &--blue {
     background: #0f59fa;
@@ -84,7 +100,7 @@
 
 .roadmap__name {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 110%;
 
   color: #ffffff;
