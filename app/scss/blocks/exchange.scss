@@ -43,6 +43,10 @@
   text-transform: lowercase;
 
   color: #ffffff;
+
+  br {
+    display: none;
+  }
 }
 
 .exchange__description {
@@ -359,7 +363,7 @@
 
     &:first-child {
       width: 100%;
-      margin-bottom: 28px;
+      margin-bottom: 35px;
 
       border-radius: 23.2822px;
     }
@@ -391,10 +395,19 @@
   .exchange__title {
     font-size: 28px;
     line-height: 1.2;
+
+    br {
+      display: inline-block;
+    }
   }
 
   .exchange__col {
-    &:first-child,
+    &:first-child {
+      padding: 0;
+
+      background: none;
+    }
+
     &:last-child {
       padding: 35px 25px;
     }

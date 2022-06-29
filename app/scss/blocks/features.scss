@@ -272,9 +272,10 @@
       order: 4;
     }
     &:nth-child(4) {
+      overflow: hidden;
       order: 3;
 
-      // height: 350px;
+      height: 350px;
     }
   }
 
@@ -289,6 +290,11 @@
     }
     &--4 {
       padding-bottom: 50px;
+
+      &::before {
+        left: 74px;
+        top: 84px;
+      }
 
       .features__name {
         font-size: 26px;
