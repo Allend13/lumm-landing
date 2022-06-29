@@ -248,6 +248,9 @@
 }
 
 @media (max-width: $mobile) {
+  .features {
+    margin-bottom: 50px;
+  }
   .features__title {
     font-size: 28px;
   }
